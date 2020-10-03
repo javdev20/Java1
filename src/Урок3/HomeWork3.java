@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Введение;
+package Урок3;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class GuessTheNumber {
+public class HomeWork3 {
 
     private static Scanner scanner = new Scanner(System.in);
 

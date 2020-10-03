@@ -1,4 +1,4 @@
-package Введение;
+package Урок4;
 
 import java.util.Arrays;
 import java.util.Random;
