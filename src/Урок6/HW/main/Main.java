@@ -5,9 +5,9 @@
  */
 package Урок6.HW.main;
 
-import Урок6.HW.Animal;
-import Урок6.HW.Cat;
-import Урок6.HW.Dog;
+import Урок6.HW.classes.Animal;
+import Урок6.HW.classes.Cat;
+import Урок6.HW.classes.Dog;
 
 /**
  *
