@@ -19,12 +19,13 @@ public class Main {
         Dog dog1 = new Dog(500, 10, 0.5);
         Dog dog2 = new Dog(400, 8, 0.8);
         Dog dog3 = new Dog(600, 12, 0.6);
-        System.out.println(dog1.swim(10));
+        System.out.println(dog1.swim(5));
         
         Cat cat1 = new Cat(200, 2);
         Cat cat2 = new Cat(205, 1);
         Cat cat3 = new Cat(250, 3);
-        System.out.println(cat1.run(500));
+        System.out.println(cat1.run(200));
         System.out.println(cat1.jumpBarrier(2));
+        System.out.println(cat1.swim(2));
     }
 }

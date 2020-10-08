@@ -31,5 +31,9 @@ public abstract class Animal {
         this.jumpLimit = jumpLimit;
     }
     
+    public abstract boolean run(int run); 
     
+    public abstract boolean swim(int swim);
+   
+    public abstract boolean jumpBarrier(double jump);
 }

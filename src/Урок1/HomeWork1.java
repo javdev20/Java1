@@ -18,7 +18,7 @@ public class HomeWork1 {
     public static void main(String[] args) {
         // TODO code application logic here
         //ДЗ №2
-       /** int a = 10;
+       /* int a = 10;
         double d = 12;
         float fl = 4F;
         char ch = 'c';

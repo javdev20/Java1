@@ -1,0 +1,21 @@
+@startuml
+class Object
+Object : +toString();
+Object : +hashcode();
+Object : +equals();
+
+abstract class Machine
+Machine : #name;
+Machine : + {abstract} go();
+Machine : + {abstract} stop();
+
+class Ground
+class Air
+class Water
+
+Object <|-- Machine
+Machine <|-- Ground
+Machine <|-- Air
+Machine <|-- Water
+
+@enduml

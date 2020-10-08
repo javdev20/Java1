@@ -22,5 +22,10 @@ public class Cat extends Animal{
     public boolean jumpBarrier(double jump){
             return jumpLimit == jump;
     }
+
+    @Override
+    public boolean swim(int swim) {
+        throw new UnsupportedOperationException("Кот не умеет плавать!!!");
+    }
     
 }
